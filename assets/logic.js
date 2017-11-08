@@ -56,8 +56,6 @@ $(document).ready(function () {
             displayImgs(newSearch);
         };
         event.preventDefault();
-
-
     })
 
     $(document).on("click", ".image", function (event) {

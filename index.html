@@ -18,8 +18,9 @@
 
 <body>
     <style>
-        #gif {
-
+        #gif div {
+            display: inline-grid;
+            margin: 5px;
         }
     </style>
     <div class="container">
@@ -36,13 +37,13 @@
                 </div>
             </div>
             <div class="col-md-4" id="searchButton">
-                    <form id="newSearch">
-                            <div class="form-group">
-                              <label for="search">Enter your own search:</label>
-                              <input type="text" class="form-control">
-                            </div>  
-                            <input type="submit" class="btn btn-danger">
-                          </form>
+                <form id="newSearch">
+                    <div class="form-group">
+                        <label for="search">Enter your own search:</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <input type="submit" class="btn btn-danger">
+                </form>
             </div>
             <!-- col-md-4 -->
         </div>
